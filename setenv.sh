@@ -15,17 +15,17 @@ export ENV_CMS_TK_FEC_ROOT=$BUILD_HOME/FecSoftwareV3_0
 export ENV_CMS_TK_HAL_ROOT=$XDAQ_ROOT
 export ENV_CMS_TK_CAEN_ROOT=$XDAQ_ROOT
 export XERCESCROOT=$XDAQ_ROOT
-export POS_LIB_DIRS=:$BUILD_HOME/pixel/lib
-export POS_OUTPUT_DIRS=$BUILD_HOME/pixel/PixelRun/Runs
+export POS_LIB_DIRS=:$BUILD_HOME/Develop_pxfec/lib
+export POS_OUTPUT_DIRS=$BUILD_HOME/Develop_pxfec/PixelRun/Runs
 
 export LD_LIBRARY_PATH=${XDAQ_ROOT}/lib/:${ROOTSYS}/lib
 export LD_LIBRARY_PATH=${BUILD_HOME}/FecSoftwareV3_0/lib:${LD_LIBRARY_PATH}
 export LD_LIBRARY_PATH=${ENV_CMS_TK_DIAG_ROOT}/tools/lib:${LD_LIBRARY_PATH}
-export LD_LIBRARY_PATH=${BUILD_HOME}/pixel/lib:${LD_LIBRARY_PATH}
+export LD_LIBRARY_PATH=${BUILD_HOME}/Develop_pxfec/lib:${LD_LIBRARY_PATH}
 export LD_LIBRARY_PATH=/usr/lib64:${LD_LIBRARY_PATH}
 #export PIXELCONFIGURATIONBASE=$BUILD_HOME/pixel/PixelConfigDataExamples/
 export PIXELCONFIGURATIONBASE=/pixelscratch/pixelscratch/config/Pix
-export PATH=${HOME}/bin:/sbin:${ROOTSYS}/bin:${PATH}:${BUILD_HOME}/pixel/bin
+export PATH=${HOME}/bin:/sbin:${ROOTSYS}/bin:${PATH}:${BUILD_HOME}/Develop_pxfec/bin
 
 cd $ROOTSYS
 source bin/thisroot.sh

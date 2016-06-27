@@ -1,4 +1,4 @@
-/home/fectest/FEC_mTCA/pixel/PixelFECInterface/src/linux/x86_64_slc6/src/common/RegManager.o /home/fectest/FEC_mTCA/pixel/PixelFECInterface/src/linux/x86_64_slc6/src/common/RegManager.d :  src/common/RegManager.cc /opt/cactus/include/uhal/uhal.hpp \
+/home/fectest/FEC_mTCA/Develop_pxfec/PixelFECInterface/src/linux/x86_64_slc6/src/common/RegManager.o /home/fectest/FEC_mTCA/Develop_pxfec/PixelFECInterface/src/linux/x86_64_slc6/src/common/RegManager.d :  src/common/RegManager.cc /opt/cactus/include/uhal/uhal.hpp \
  /opt/cactus/include/uhal/definitions.hpp \
  /opt/cactus/include/uhal/ValMem.hpp \
  /opt/cactus/include/uhal/log/exception.hpp \
@@ -447,7 +447,7 @@
  /opt/cactus/include/boost/io/detail/quoted_manip.hpp \
  /opt/cactus/include/boost/io/ios_state.hpp \
  /opt/cactus/include/boost/io_fwd.hpp \
- /home/fectest/FEC_mTCA/pixel/PixelFECInterface/include/RegManager.h \
+ /home/fectest/FEC_mTCA/Develop_pxfec/PixelFECInterface/include/RegManager.h \
  /opt/cactus/include/boost/thread.hpp \
  /opt/cactus/include/boost/thread/thread.hpp \
  /opt/cactus/include/boost/thread/pthread/thread_data.hpp \
@@ -1048,7 +1048,7 @@ src/common/RegManager.cc:
 /opt/cactus/include/boost/io/detail/quoted_manip.hpp:
 /opt/cactus/include/boost/io/ios_state.hpp:
 /opt/cactus/include/boost/io_fwd.hpp:
-/home/fectest/FEC_mTCA/pixel/PixelFECInterface/include/RegManager.h:
+/home/fectest/FEC_mTCA/Develop_pxfec/PixelFECInterface/include/RegManager.h:
 /opt/cactus/include/boost/thread.hpp:
 /opt/cactus/include/boost/thread/thread.hpp:
 /opt/cactus/include/boost/thread/pthread/thread_data.hpp:

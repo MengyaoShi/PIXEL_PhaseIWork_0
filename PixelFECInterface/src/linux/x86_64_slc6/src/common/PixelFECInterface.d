@@ -1,8 +1,8 @@
-/home/fectest/FEC_mTCA/pixel/PixelFECInterface/src/linux/x86_64_slc6/src/common/PixelFECInterface.o /home/fectest/FEC_mTCA/pixel/PixelFECInterface/src/linux/x86_64_slc6/src/common/PixelFECInterface.d :  src/common/PixelFECInterface.cc \
- /home/fectest/FEC_mTCA/pixel/PixelFECInterface/include/PixelFECInterface.h \
- /home/fectest/FEC_mTCA/pixel/CalibFormats/SiPixelObjects/interface/PixelFECConfigInterface.h \
- /home/fectest/FEC_mTCA/pixel/CalibFormats/SiPixelObjects/interface/PixelHdwAddress.h \
- /home/fectest/FEC_mTCA/pixel/PixelFECInterface/include/RegManager.h \
+/home/fectest/FEC_mTCA/Develop_pxfec/PixelFECInterface/src/linux/x86_64_slc6/src/common/PixelFECInterface.o /home/fectest/FEC_mTCA/Develop_pxfec/PixelFECInterface/src/linux/x86_64_slc6/src/common/PixelFECInterface.d :  src/common/PixelFECInterface.cc \
+ /home/fectest/FEC_mTCA/Develop_pxfec/PixelFECInterface/include/PixelFECInterface.h \
+ /home/fectest/FEC_mTCA/Develop_pxfec/CalibFormats/SiPixelObjects/interface/PixelFECConfigInterface.h \
+ /home/fectest/FEC_mTCA/Develop_pxfec/CalibFormats/SiPixelObjects/interface/PixelHdwAddress.h \
+ /home/fectest/FEC_mTCA/Develop_pxfec/PixelFECInterface/include/RegManager.h \
  /opt/cactus/include/uhal/uhal.hpp \
  /opt/cactus/include/uhal/definitions.hpp \
  /opt/cactus/include/uhal/ValMem.hpp \
@@ -603,10 +603,10 @@
  /opt/cactus/include/boost/chrono/floor.hpp \
  /opt/cactus/include/boost/chrono/round.hpp
 src/common/PixelFECInterface.cc:
-/home/fectest/FEC_mTCA/pixel/PixelFECInterface/include/PixelFECInterface.h:
-/home/fectest/FEC_mTCA/pixel/CalibFormats/SiPixelObjects/interface/PixelFECConfigInterface.h:
-/home/fectest/FEC_mTCA/pixel/CalibFormats/SiPixelObjects/interface/PixelHdwAddress.h:
-/home/fectest/FEC_mTCA/pixel/PixelFECInterface/include/RegManager.h:
+/home/fectest/FEC_mTCA/Develop_pxfec/PixelFECInterface/include/PixelFECInterface.h:
+/home/fectest/FEC_mTCA/Develop_pxfec/CalibFormats/SiPixelObjects/interface/PixelFECConfigInterface.h:
+/home/fectest/FEC_mTCA/Develop_pxfec/CalibFormats/SiPixelObjects/interface/PixelHdwAddress.h:
+/home/fectest/FEC_mTCA/Develop_pxfec/PixelFECInterface/include/RegManager.h:
 /opt/cactus/include/uhal/uhal.hpp:
 /opt/cactus/include/uhal/definitions.hpp:
 /opt/cactus/include/uhal/ValMem.hpp:

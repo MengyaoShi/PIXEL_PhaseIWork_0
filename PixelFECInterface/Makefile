@@ -21,7 +21,7 @@
 include $(XDAQ_ROOT)/config/mfAutoconf.rules
 include $(XDAQ_ROOT)/config/mfDefs.$(XDAQ_OS)
 
-Project=pixel
+Project=Develop_pxfec
 Package=PixelFECInterface
 
 CACTUS_ROOT = /opt/cactus

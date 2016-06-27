@@ -15,7 +15,7 @@ export FECSW_LIB=/home/fectest/FEC_SW/FecSoftwareV3_0/lib
 ## FEC SW Standalone
 export FECSW_ROOT=~/FEC_SW/FecSoftwareV3_0
 export ENV_CMS_TK_FEC_ROOT=${FECSW_ROOT}
-export BPIX_LIB=~/FEC_SW/Pixel/BPixelTools/tools/lib
+export BPIX_LIB=~/FEC_SW/Develop_pxfec/BPixelTools/tools/lib
 # export BPIX_CCU=~/FEC_SW/Pixel/BPixelTools/ccu/bin
 
 

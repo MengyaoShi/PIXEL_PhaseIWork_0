@@ -5,7 +5,7 @@ export PORT_BASE=2000
 #export CAEN_PS=$PIXEL_HOME/CAEN_PS_cpp
 
 export TRIDAS_ROOT=${PIXEL_HOME}/
-export POSVERSION="pixel"
+export POSVERSION="Develop_pxfec"
 
 export XDAQ_ROOT=/opt/xdaq
 
