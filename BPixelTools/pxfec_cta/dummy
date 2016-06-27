@@ -1,0 +1,12 @@
+\echo this is d.ini
+
+### Configuration file for mfec ch6
+
+sys
+fec  1
+mfec 1 1 -6P
+
+cn -6PL12
+#cn -6PL3
+cn hello
+module 15

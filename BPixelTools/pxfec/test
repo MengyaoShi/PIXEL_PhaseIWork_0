@@ -1,0 +1,113 @@
+semaphore already exists, created by PID 14884
+this is d.ini 
+134217728
+PixelFECInterface Constructor called
+Init FEC in slot 1
+Values written correctly !1=1
+disableexttrigger_ 0
+Values written correctly !1=1
+loopnormtrigger_ 0
+Values written correctly !1=1
+injectrstroc_ 0
+Values written correctly !1=1
+injectrsttbm_ 0
+Values written correctly !0=0
+disableexttrigger_ 0
+TBM Command: mfec:1 tbmchannel:14 hubaddress:0 portaddress:4 offset:2 databyte:1 direction:0
+
+Value in register ID CSReg.CSREGM1 : 302383622
+ (4)  (2)  (e4)  (1)  (0)  (ff) 
+writeCSregister first reads: 12060206
+CH1 Receive Complete
+CH2 Receive Complete
+CH2 Receive Count Error
+
+ERROR !!
+Values are not consistent : 
+Expected : 393224
+Actual : 302383104
+writeCSregister puts      : 60008
+Final FEC data (ndata:6)  (0): 1e40204 flipped  402e401
+Final FEC data (ndata:6)  (4): ff00 flipped  ff0000
+name BOUT_BUF1M1
+1073741824 size 1
+Block Write finished !!
+1 values failed to write !
+writeCSregister first reads: 12060206
+CH1 Receive Complete
+CH2 Receive Complete
+CH2 Receive Count Error
+
+ERROR !!
+Values are not consistent : 
+Expected : 393223
+Actual : 302383622
+writeCSregister puts      : 60007
+TBM Command: mfec:1 tbmchannel:14 hubaddress:0 portaddress:0 offset:0 databyte:0 direction:0
+
+Value in register ID CSReg.CSREGM1 : 302383622
+ (0)  (2)  (e0)  (0)  (0)  (ff) 
+writeCSregister first reads: 12060206
+CH1 Receive Complete
+CH2 Receive Complete
+CH2 Receive Count Error
+
+ERROR !!
+Values are not consistent : 
+Expected : 524294
+Actual : 518
+writeCSregister puts      : 80006
+Final FEC data (ndata:6)  (0): e00200 flipped  2e000
+Final FEC data (ndata:6)  (4): ff00 flipped  ff0000
+name BOUT_BUF2M1
+1073741825 size 1
+Block Write finished !!
+1 values failed to write !
+writeCSregister first reads: 12060206
+CH1 Receive Complete
+CH2 Receive Complete
+CH2 Receive Count Error
+
+ERROR !!
+Values are not consistent : 
+Expected : 458758
+Actual : 302383622
+writeCSregister puts      : 70006
+
+Setting FECDEBUG to ON (2)
+reading back 
+Getting FIFO readback register
+
+Value in register ID InFIFOCh1.INP_BUF1M1 : 3825271808
+Getting the HUB & BYTE COUNT register
+
+Value in register ID StatCh1.STAT1_M1 : 33686532
+myData 2020404 0
+
+Value in register ID GenReg.VERSIONM01 : 0
+Get FEC version finds firmware version: 0
+mFEC Firmware Version 0
+Values written correctly !0=0
+Values written correctly !0=0
+Values written correctly !1=1
+Values written correctly !1=1
+Values written correctly !1=1
+Values written correctly !1=1
+Getting FEC cntrstatus register
+
+Value in register ID CSReg.CSREGM1 : 302383622
+ControlNetwork -6PL12: slot 1 mfec 1 channel 1  status=12060206
+ ch1 receive complete 
+Values written correctly !0=0
+Values written correctly !0=0
+Values written correctly !1=1
+Values written correctly !1=1
+Values written correctly !1=1
+Values written correctly !1=1
+Getting FEC cntrstatus register
+
+Value in register ID CSReg.CSREGM1 : 302383622
+ControlNetwork -6PL3: slot 1 mfec 1 channel 2  status=12060206
+ ch2 receive complete 
+ ch2 receive count error 
+done with d.ini 

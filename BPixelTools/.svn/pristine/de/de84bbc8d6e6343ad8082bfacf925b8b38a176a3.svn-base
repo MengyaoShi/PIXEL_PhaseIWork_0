@@ -1,0 +1,28 @@
+#!/bin/bash
+# common initializations for BPIXELTOOLS
+export PIXEL_HOME=/nfshome0/pixeldev
+export PORT_BASE=2000
+export CAEN_PS=$PIXEL_HOME/CAEN_PS_cpp
+
+export TRIDAS_ROOT=${PIXEL_HOME}/TriDAS
+export POSVERSION=`pwd | egrep -o "pixel_[0-9]*_[0-9]*_[0-9]*"`
+if test -z "$POSVERSION"; then 
+    echo "unable to determine POS version from current working directory" 
+    exit 1
+fi
+
+
+if test -e /opt/xdaq/include; then
+  export XDAQ_ROOT=/opt/xdaq
+elif test $HOSTNAME = cmsusr0; then
+  export XDAQ_ROOT=~dkotlins/XDAQ311/opt/xdaq
+fi
+
+
+export INTERFACE=vmecaenpci
+export BPIXELTOOLS=${TRIDAS_ROOT}/${POSVERSION}/BPixelTools
+export PIXEL_INCLUDE=${TRIDAS_ROOT}/${POSVERSION}
+# setenv FECSOFTWARE_ROOT=/home/l_pixel/FecSoftwareV3_0
+
+export PYTHONPATH=${PYTHONPATH}:${BPIXELTOOLS}/tools/python
+export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:${BPIXELTOOLS}/tools/lib

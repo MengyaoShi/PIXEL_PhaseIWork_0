@@ -1,0 +1,421 @@
+exit
+module 15
+roc 0:15
+Vana 0
+Vana 85
+module 14
+roc 0:15
+Vana 0
+Vana 85
+exit
+arm 4 4
+module 6 
+tbm
+tbmadelay 219
+tbmbdelay 219
+exit
+arm 4 4
+exit
+arm 4 4
+exit
+arm 4 4
+exit
+arm 4 4
+exit
+arm 4 4
+exit
+arm 4 4
+arm 8 8
+arm 6 6 
+arm 12 12
+arm 16 16
+arm 20 20
+arm 24 24
+exit
+tbm
+enableauto
+tbm
+enableauto
+roc 0:15
+arm 4 4
+tbm
+disableauto
+enableauto
+exit
+tbm
+enableauto
+roc 0:15
+arm 4 4
+tbm
+disableauto
+arm 4 4
+arm 2 2
+arm 4 4
+arm 2 2
+arm 6 6
+arm 8 8
+arm 10 10
+arm 12 12
+arm 14 14
+arm 16 16
+arm 18 18
+arm 20 20
+arm 22 22
+arm 24 24
+arm 26 26
+arm 28 28
+arm 30 30
+arm 10 20
+arm 14 20
+arm 12 20
+arm 16 20
+arm 18 20
+exit
+arm 2 2
+arm 4 4 
+arm 6 6 
+arm 16 16 
+arm 8 8 
+arm 10 10
+arm 12 12
+arm 14 14
+arm 18 18
+arm 20
+arm 20 20
+arm 22 22
+arm 24 24
+arm 26 26
+arm 28 28
+arm 30 30
+arm 10 30
+arm 10 20
+arm 10 16
+arm 12 16
+arm 14 16
+arm 18 16
+arm 18 14
+exit
+arm 4 4
+arm 6 6
+arm 8 8 
+arm 10 10
+arm 12 12
+arm 14 14
+arm 16 16
+arm 18 18
+arm 20 20
+arm 22 22
+arm 24 24
+arm 26 26
+arm 30 30
+arm 28 28
+arm 10 20
+arm 10 22
+arm 10 24
+arm 10 26
+arm 10 28
+arm 10 18
+arm 10 16
+arm 20 16
+arm 20 14
+arm 20 12
+arm 20 10
+arm 20 8
+arm 20 6
+mask 20 6
+disable 20 6
+exit
+arm 4 4
+arm 6 6
+arm 8 8 
+arm 10 10
+arm 12 12
+arm 14 14
+arm 16 16
+arm 18 18
+arm 20 20
+arm 22 22
+arm 24 24
+arm 26 26
+arm 28 28
+arm 30 30
+arm 10 30
+arm 20 30
+arm 24 30
+arm 14 30
+arm 14 20
+arm 14 10
+exit
+arm 4 4
+exit
+arm 4 4
+tbm
+disableautonpkam
+exit
+arm 4 4
+exit
+arm 4 4
+exit
+arm 4 4
+tbm
+module 15
+tbm
+tbmplldelay 0
+tbmplldelay 4
+tbmplldelay 0
+tbmplldelay 4
+exit
+module 15
+tbm 
+tbmplldelay 4
+exit
+module 15
+roc 0:15
+Vana 0
+Vana 85
+exit
+tbm
+enableauto
+roc 0:15
+arm 4 4
+disableauto
+tbm
+disableauto
+exit
+arm 4 4
+exit
+arm 4 4
+exit
+arm 4 4
+exit
+arm 4 4
+exit
+4
+.q
+exit
+.q
+exit
+exi
+exit
+.q
+exit
+Vana 0
+Vana 100
+Vana 0
+Vana 100
+Vana 0
+Vana 200
+Vana 0
+Vana 100
+Vana 0
+Vana 200
+Vana 100
+Vana 200
+Vana 0
+Vana 140
+Vana 100
+Vana 0
+Vana 100
+Vana 0
+Vana 100
+Vana 0
+roc 0:15
+Vana 100
+roc 0:15
+Vana 100
+Vana 0
+Vana 100
+Vana 0
+Vana 100
+Vana 200
+Vana 0
+Vana 100
+Vana 50
+Vana 100
+Vana 200
+reset tbm
+Vana 100
+Vana 200
+Vana 100
+tbm
+inject trigger
+reset roc
+roc 0
+Vana 100
+Vdig 8 
+roc 0
+Vana 100
+roc 0
+Vana 100
+roc 0
+Vana 100
+roc 0
+Vana 100
+roc 0
+Vana 100
+roc 0
+Vana 100
+roc 0
+Vana 100
+roc 0
+Vana 200
+roc 0
+Vana 100
+roc 0
+Vana 100
+roc 0
+Vana 100
+roc 0
+Vana 100
+roc 0
+Vana 100
+roc 0
+Vana 100
+roc 0
+Vana 100
+roc 0
+Vana 100
+roc 0
+Vana 100
+roc 0
+Vana 100
+Vdig 8
+Vana 100
+roc 0
+Vdig 8
+roc 0
+Vana 100
+roc
+roc 0
+Vana 100
+roc 
+roc 0
+Vana 100
+Vana 0
+Vana 100
+roc 0
+Vana 100
+roc 0:15
+Vana 100
+Vana 0
+roc 0
+Vana 0
+roc 0
+Vana 100
+roc 0
+Vana 100
+roc 0:15
+Vana 100
+Vana 0
+Vana 100
+Vana 50
+Vana 100
+Vana 50
+roc 0:15
+Vana 100
+Vana 50
+Vana 100
+Vana 50
+Vana 100
+Vana 50
+Vana 100
+Vana 50
+Vana 0
+Vana 100
+Vana 0
+Vana 100
+Vana 0
+Vana 100
+Vana 50
+Vana 100
+Vana 50
+Vana 0
+Vana 100
+Vana 0
+Vana 100
+Vana 50
+Vana 100
+Vana 50
+Vana 0
+Vana 150
+Vana 0
+Vana 150
+roc 0:15
+Vana 0
+Vana 150
+arm 6 6
+roc 0:15
+Vana 0
+Vana 150
+roc 0:15
+Vana 150
+roc 0:15
+Vana 100
+tbm 
+reset tbm
+roc 0:15 
+arm 6 4
+arm 8 4
+roc 0:15
+arm 6 4
+arm 8 4
+exit
+reset tbm
+roc 0:15
+arm 4 6 
+tbm
+reset tbm
+roc 0:15
+arm 4 12
+exit
+roc 0:15
+arm 4 4
+exit
+roc 0:15
+arm 6 6
+exit
+roc 0:15
+arm 8 8
+exitr
+exit
+roc 0:15
+arm 6 6
+arm 8 8
+exit
+roc 0:15
+arm 8 8
+exit
+roc 0:15
+arm 10 4
+tbm reset
+reset tbm
+roc 0:15
+Vana 6
+exit
+reset tbm
+exit
+roc 0:15
+Vana 6
+Vana 250
+reset tbm
+exit
+roc 0:15
+arm 4 4
+exit
+reset tbm
+exit
+roc 0:15
+arm 4 4
+exit
+roc 0:15
+arm 4 4
+arm 6 6
+arm 8 8
+arm 4 4
+exit
+roc 0:15
+arm 4 8
+exit
+roc 0:15
+arm 10 4
+exit

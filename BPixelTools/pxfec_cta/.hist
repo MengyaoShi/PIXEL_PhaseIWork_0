@@ -1,0 +1,495 @@
+Vana 100
+Vana 0
+Vana 100
+Vana 0
+Vana 100
+Vana 0
+Vana 100
+Vana 0
+roc 0:15
+Vana 0
+Vana 10
+Roc 0
+roc 0
+Vana 10
+roc 0:15
+Vana 0
+Vana 100
+Vana 0
+roc 0:15
+Vana 0
+Vana 100
+roc 0:15
+Vana 100
+Vana 150
+Vana 0
+Vana 150
+roc 0:15
+Vana 150
+roc 0:15
+Vana 100
+Vana 150
+roc 0:15
+Vana 100
+roc 0:15
+Vana 0
+Vana 150
+roc 0:15
+Vana 150
+Vana 0
+Vana 150
+roc 0:15
+arm 4 4
+WBC 92
+arm 5 5
+arm 4 4
+tbm
+reset
+reset tbm
+tbm 
+reset tbm
+arm 4 4
+roc 0:15
+arm 4 4
+tbm
+reset tbm
+roc 0:15
+Vana 0
+roc 0
+Vana 0
+Vana 100
+Vana 0
+Vana 100
+Vana 0
+roc 0:15
+Vana 0
+Vana 100
+Vana 0
+Vana 100
+Vana 0
+Vana 100
+Vana 0
+Vana 100
+Vana 0
+tbm
+reset tbm
+roc 0:15
+Vana 100
+reset tbm
+roc 0:15
+Vana 0
+Vana 100
+Vana 0
+Vana 100
+Vana 0
+roc 0:15
+Vana 0
+Vana 100
+Vana 0
+Vana 100
+Vana 150
+Vana 10
+Vana 150
+Vana 0
+arm 4 4
+Vana 150
+arm 4 4
+Vana 0
+roc 0:15
+Vana 0
+Vana 100
+reset tbm
+roc 0:15
+Vana 100
+Vana 20
+roc 0:15
+Vana 20
+tbm
+reset tbm
+roc 0:15
+vana 10
+Vana 10
+Vana 100
+roc 0:15
+Vana 10
+roc 0:15
+Vana 0
+tbm 
+reset tbm
+roc 0:15
+Vana 10
+reset tbm 
+roc 0:15 
+Vana 100
+roc 0:15
+Vana 0
+Vana 100
+reset tbm 
+Vana 100
+reset tbm 
+roc 0:15
+Vana 0
+roc 0:15
+Vana 0
+tbm 
+reset tbm 
+roc 0:15
+Avan 100
+Vaan 100
+reset tbm 
+roc 0:15
+Vana 0
+tbm 
+reset tbm
+roc 0:15
+Vana 100
+ls -lrt
+roc 0:15
+Vana 100
+Vana 150
+Vana 0
+Vana 150
+roc 0:15
+Vana 0
+Vana 100
+roc 0:15
+Vana 0
+Vana 100
+roc 0:15
+Vana 150
+roc 0:15
+Vana 0
+Vana 150
+roc 0:15
+Vana 0
+roc 0:15
+Vana 0
+Vana 100
+roc 0:15 
+Vana 0
+roc 0:15 
+Vana 0
+Vana 100
+Vana 0
+Vana 100
+Vana 150
+roc 0:15
+Vana 150
+roc 0:15
+Vana 0
+Vana 150
+ls -lrt
+tbm 
+rco 0:15
+roc 0:15
+arm 4 4
+tbm
+cn inject trigger
+cn reset tbm
+cn inject trigger
+cn reset tbm
+cn inject trigger
+tbm
+cn inject trigger
+Vdig 6
+r
+where
+Vana 0
+Vana 100
+Vana 150
+Vana 100
+Vana 150
+roc 0:15
+Vana 100
+Vana 150
+roc 0:15
+Vana 100
+roc 0:15
+Vana 100
+Vana 0
+Vana 100
+roc 0:15
+Vana 0
+Vana 100
+roc 0:15
+Vana 0
+Vana 100
+roc 0:15
+Vana 100
+Vana 0
+Vana 100
+Vana 0
+roc 0:15
+tbmread
+readA
+cn print status
+cn dump generaql
+cn dump general
+cn enable triggers
+cn dump general
+cn set general 0
+cn dump general
+roc 0:15
+Vana 0
+Vana 150
+arm 4 4
+tbmbdelay 218
+tbm tbmbdelay 218
+arm 1 1
+roc arm 1 1
+roc 0:15
+arm 1 1
+arm 2 2
+arm 3 3
+ WBC 92
+Vana 0
+Vana 150
+fuck YOU
+cn tbm reset 
+cn reset tbm 
+cn disable triggers
+cn reset roc
+cn disable triggers
+cn reset tbm
+cn disable triggers
+cn inject cal
+cn reset roc
+cn disable triggers
+cn enable triggers
+cn inject cal
+cn reset roc
+roc 0:15
+Vana 0
+Vana 150
+roc 0:15
+Vana 100
+Vana 0
+roc 0:15
+Vana 100
+Vana 0
+Vana 150
+roc 0:15
+Vana 100
+Vana 150
+roc 0:15
+Vana 0
+Vana 150
+roc 0;15
+roc 0:15
+arm 6 4
+arm 8 4
+arm 10 4
+cn reset roc 
+cn disable triggers
+cn reset roc 
+cn enable triggers
+roc 0:15
+Vana 0
+Vana 150
+q
+quit
+roc 0:15
+Vana 0
+Vana 130
+Vana 6
+quit
+roc 0:15
+Vana 0
+Vana 130
+quit
+roc 0:15
+Vana 0
+Vana 150
+Vana 0
+Vana 150
+Vana 0
+roc 0:15
+Vana 6
+Vana 150
+roc 0:15
+Vana 6
+Vana 150
+arm 4 8
+roc 0:15
+arm 4 4
+arm 8 4
+arm 6 4
+arm 10 4
+tbm
+reset tbm
+exit
+roc 0:15
+Vana 6
+Vana 150
+arm 4 4
+arm 6 4
+arm 8 4
+arm 10 4
+roc 0:15
+Vana 6
+Vana 150
+exit
+roc 0:8
+arm 10 4
+roc 0:8
+arm 10 4
+roc 0:8
+arm 10 4
+roc 0:8
+arm 10 4
+roc 0:8
+arm 10 4
+roc 0:6 arm 8 4
+roc 0:6
+arm 8 4
+arm 10 4
+tbm
+roc 15
+arm 8 4
+tbm
+roc 7
+arm 12 4
+tbm
+roc 1
+arm 12 4
+arm 16 4
+roc 0
+arm 8 4
+q
+roc 0:15
+Vana 100
+Vana 0
+Vana 100
+roc 0:15
+arm 4 4
+roc 0:15
+Vana 0
+Vana 100
+roc 0:15
+Vana 0
+Vana 100
+inject trigger
+roc 0:15
+Vana 0
+roc 0:15
+Vana 100
+Vana 50
+Vana 100
+Vana 50
+Vana 100
+Vana 0
+Vana 100
+Vana 150
+roc 0:15
+Vana 0
+Vana 100
+Vana 150
+roc 0:15
+Vana 0
+roc 0:15
+Vana 0
+roc 0:15
+Vana 0
+Vana 10
+Vana 150
+roc 0:15
+Vana 0
+Vana 100
+roc 0:15
+Vana 0
+Vana 100
+roc 0:15
+Vana 0
+Vana 100
+roc 0:15
+Vana 0
+exit
+quit
+roc 0:15
+Vana 160
+quit
+roc 0:15
+Vana 0
+Vana 150
+quit
+.q
+quit
+roc 0:15
+Vana 0
+Vana 150
+.q
+quit
+roc 0:15
+Vana 160
+quit
+roc 0:15
+Vana 100
+roc 0:15
+Vana 0
+Vana 150
+quit
+quity
+quit
+exit
+quit
+roc 0:15
+Vana 150
+quit
+roc 0:15
+arm 6 4
+arm 8 4
+exit
+roc 0:15
+arm 4 4
+arm 6 4
+arm 8 4
+arm 10 4
+quit
+roc 0:15
+Vana 100
+Vana 0
+Vana 100
+Vana 0
+Vana 100
+Vana 0
+Vana 100
+exit
+q
+exit
+Vana 100
+Vana 0
+exit
+roc 0:15
+Vana 100
+exit
+roc 0:15
+Vana 100
+Vana 0
+Vana 100
+exit
+roc 0:15
+Vana 100
+Vana 0
+exit
+roc 1:15
+Vana 150
+Vana 0
+exit
+roc 1:15
+Vana 150
+Vana 0
+exit
+Vana 0
+roc 1:15
+Vana 0
+Vana 150
+exit
+Vana 150
+Vana 0
+roc 1:15
+Vana 0
+Vana 150
+Vana 0
+Vana 200
+Vana 0
+exit

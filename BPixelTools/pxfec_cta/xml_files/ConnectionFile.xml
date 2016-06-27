@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<connections>
+<!--	 <connection id="GLIB" uri="chtcp-2.0://cmsuppixch:10203?target=ctapxfec:50001" address_table="file:///home/fectest/FEC_mTCA/pixel/BPixelTools/pxfec_cta/xml_files/registers2_cta.xml" />  -->
+<!--         <connection id="GLIB" uri="chtcp-2.0://cmsuppixch:10203?target=pilotpxfec:50001" address_table="file:///home/fectest/FEC_mTCA/pixel/BPixelTools/pxfec_cta/xml_files/registers2_cta.xml" /> -->
+<!--         <connection id="GLIB" uri="chtcp-2.0://cmsuppixch:10203?target=pilotpxfec:50001" address_table="file:///home/fectest/FEC_mTCA/pixel/BPixelTools/pxfec_cta/xml_files/registers2_cta.xml" /> --> 
+         <connection id="GLIB" uri="chtcp-2.0://cmsuppixch:10203?target=devpxfec:50001" address_table="file:///home/fectest/FEC_mTCA/pixel/BPixelTools/pxfec_cta/xml_files/registers2_cta.xml" /> 
+</connections>

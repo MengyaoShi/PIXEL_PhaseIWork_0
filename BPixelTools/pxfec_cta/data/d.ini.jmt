@@ -1,0 +1,72 @@
+\echo this is d.ini
+
+### Configuration file for mfec ch6
+
+sys
+fec  1
+mfec 1 1 -6P
+
+cn -6PL12
+#cn -6PL3
+cn hello
+module 14
+
+# FOR MODULE M_CL_907
+echo configuring module M_CL_907
+
+echo configuring rocs
+roc 0:15
+Vdig         6
+Vana       150
+Vsh         30
+Vcomp       12
+VwllPr      60
+VwllSh      60
+VhldDel    255
+Vtrim       20 
+VthrComp    60
+VIBias_Bus   5
+Vbias_sf     6
+VoffsetOp   40    
+PHOffset   140
+VIon       100
+Vcomp_ADC  100
+PHScale    160
+VIColOr     20
+Vcal       255
+CalDel     130
+CtrlReg      4
+WBC         92
+#mask
+
+clrcal
+arm 4 4 
+#arm 6 4
+#arm 8 4
+#arm 10 4
+#arm 12 4
+#arm 14 4
+#arm 24 4
+#arm 28 4
+#arm 30 4
+
+#arm 32 4  # this was commented out before
+
+echo tbm reset
+tbm
+reset tbm
+#fullspeed
+disablepkam
+#enablepkam
+#tbmpkamcount 1
+mode cal
+tbmadelay 218
+tbmbdelay 210
+
+# 160/400Mhz
+setA 7 200
+
+roc 0:15
+ReadBack 12 
+
+tbm
