@@ -82,14 +82,26 @@ void exec(SysCommand* cmd){
   }
 }
 
+char* appendCharToCharArray(char* array, char a)
+{
+    size_t len = strlen(array);
 
-//--------------------------------------------------
+    char* ret = new char[len+2];
+
+    strcpy(ret, array);    
+    ret[len] = a;
+    ret[len+1] = '\0';
+
+    return ret;
+}
 int main(int argc, char **argv){
 
   // default configuration variables 
   int port=0;                      // port, 0= no port,    define with option -port
   int VMEBoard=1; //CAEN interface   defisrc/pxfec.cxx:41:ne with option -vmecaenpci or -vmecaenusb
-  string file="data/d.ini.P-A-2-08";        // init file            define with option -file
+  string file;
+  cout<< "Enter a file name please"<<std::endl;
+  cin>>file;        // init file            define with option -file
 
 
   // parse command line arguments
@@ -118,8 +130,13 @@ int main(int argc, char **argv){
       exit(1);
     }
   }
-
-  addressTablePtr = (char *) "file:///home/fectest/FEC_mTCA/pixel/BPixelTools/pxfec_cta/xml_files/ConnectionFile.xml";
+  
+  char* addressTablePtrString0=(char *)"file:///home/fectest/FEC_mTCA/pixel/BPixelTools/pxfec_cta/";
+  char xml_file_name;
+  std::cout<<"Please enter xml_file name, end with .xml"<<std::endl;
+  std::cin>> xml_file_name;
+  char*  addressTablePtrString1= appendCharToCharArray(addressTablePtrString0,xml_file_name );
+  addressTablePtr = (char *) addressTablePtrString1;
 
   VMELock lock(1);
  
