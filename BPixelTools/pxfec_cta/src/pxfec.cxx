@@ -82,16 +82,12 @@ void exec(SysCommand* cmd){
   }
 }
 
-char* appendCharToCharArray(char* array, char a)
+char* appendCharToCharArray(char* array, char * a)
 {
-    size_t len = strlen(array);
 
-    char* ret = new char[len+2];
-
-    strcpy(ret, array);    
-    ret[len] = a;
-    ret[len+1] = '\0';
-
+    char* ret = new char[std::strlen(array)+std::strlen(a)+1];
+    std::strcpy(ret,array);
+    std::strcat(ret,a);
     return ret;
 }
 int main(int argc, char **argv){
@@ -103,6 +99,7 @@ int main(int argc, char **argv){
   cout<< "Enter a file name please"<<std::endl;
   cin>>file;        // init file            define with option -file
 
+  cout<<"You input is "<< file<<std::endl;
 
   // parse command line arguments
   for(int i=1; i<argc; i++){
@@ -132,10 +129,13 @@ int main(int argc, char **argv){
   }
   
   char* addressTablePtrString0=(char *)"file:///home/fectest/FEC_mTCA/pixel/BPixelTools/pxfec_cta/";
-  char xml_file_name;
+  string xml_string;
+  char xml_file_name[15];
   std::cout<<"Please enter xml_file name, end with .xml"<<std::endl;
-  std::cin>> xml_file_name;
+  std::cin>> xml_string;
+  strcpy(xml_file_name, xml_string.c_str());
   char*  addressTablePtrString1= appendCharToCharArray(addressTablePtrString0,xml_file_name );
+  std::cout<< addressTablePtrString1<<std::endl;
   addressTablePtr = (char *) addressTablePtrString1;
 
   VMELock lock(1);
